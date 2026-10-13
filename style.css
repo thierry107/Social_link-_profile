@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+ 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    font-family : 'Inter', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: hsl(0, 0%, 8%)
+}
+
+
+.profile-card {
+ box-sizing: border-box;
+ max-width: 100%;
+ border-radius:15px,white;
+ padding-block: 20px;
+ padding-inline: 40px;
+}
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+img {
+   
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.location {
+    color:hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.bio {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
